@@ -1,2 +1,2 @@
 # .net-mvc-SimpleCrud
-Basit ASP.NET MVC üzerinde Entity Framework ile linq sorguları
+ASP.NET MVC üzerinde Entity Framework ile DbCodeFirst kullanarak linq sorguları örneği öğrenci ekleme-silme-güncelleme olarak gösterilmiştir
