@@ -1,6 +1,8 @@
 # .net-mvc-SimpleCrud
 ASP.NET MVC üzerinde Entity Framework ile DbCodeFirst kullanarak linq sorguları örneği öğrenci ekleme-silme-güncelleme olarak gösterilmiştir
 
+1.girilen ve 2.girilen not değerinin ortalaması otomatik değer atar
+
 
 packagesleri indirmeniz gerekmektedir projeyi açarken
 
