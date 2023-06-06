@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "sil";
+    Layout = "~/Views/Shared/_LayoutNavBar.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Öğrenci Adı</th>
+        <th>Öğrenci Soyadı</th>
+        <th>Öğrenci 1.notu</th>
+        <th>Öğrenci 2.notu</th>
+        <th>Öğrenci Ortalaması</th>
+    </tr>
+    @foreach (var p in Model)
+    {
+
+
+        <tr>
+            <td>@p.ID</td>
+            <td>@p.OgrenciAd</td>
+            <td>@p.OgrenciSoyad</td>
+            <td>@p.OgrenciNot1</td>
+            <td>@p.OgrenciNot2</td>
+            <td>@p.OgrenciOrtalama</td>
+        </tr>
+
+
+
+    }
+
+
+</table>
+

@@ -1,0 +1,35 @@
+﻿@model OgrenciDenemeCodeFirst.Models.Sınıflar.Ogrenciler
+@{
+    ViewBag.Title = "Degistir";
+    Layout = "~/Views/Shared/_LayoutNavBar.cshtml";
+}
+
+<form class="form-group" method="post">
+    <div>
+        <label>Öğrenci Adı:</label>
+        @Html.TextBoxFor(x => x.OgrenciAd, new { @class = "form-control" })
+        <br />
+    </div>
+    <div>
+        <label>Öğrenci SoyAdı:</label>
+        @Html.TextBoxFor(x => x.OgrenciSoyad, new { @class = "form-control" })
+        <br />
+    </div>
+    <div>
+        <label>Öğrenci 1. Notu:</label>
+        @Html.TextBoxFor(x => x.OgrenciNot1, new { @class = "form-control" })
+        <br />
+    </div>
+    <div>
+        <label>Öğrenci 2.Notu</label>
+        @Html.TextBoxFor(x => x.OgrenciNot2, new { @class = "form-control" })
+    </div>
+
+    <button class="btn btn-danger">Kaydet</button>
+
+
+
+
+
+</form>
+
