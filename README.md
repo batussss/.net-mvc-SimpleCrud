@@ -4,7 +4,7 @@ ASP.NET MVC üzerinde Entity Framework ile DbCodeFirst kullanarak linq sorgular�
 1.girilen ve 2.girilen not değerinin ortalaması otomatik değer atar
 
 
-packagesleri indirmeniz gerekmektedir projeyi açarken
+packages boyutları githuba çok yüksek boyuttan dolayı kendiniz indirmeniz gerekmektedir projeyi açarken
 
 batuddxd@gmail.com
 
